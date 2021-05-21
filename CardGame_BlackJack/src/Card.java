@@ -33,7 +33,7 @@ public class Card {
             case 13:
                 return "King";
             default:
-                return Integer.toString(rankNumber);
+                return String.valueOf(rankNumber);
         }
     }
 
